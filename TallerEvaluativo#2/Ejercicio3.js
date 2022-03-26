@@ -10,7 +10,7 @@ for(let i = 0; i < 50; i ++)
     if(alimento.nombre == 'grillo' || alimento.nombre == 'Libelula' || alimento.nombre == 'mosca'){
         alimento.tipo='insecto'
     }
-    else if(alimento.nombre=='toro' || alimento.nombre=='cocodrilo' || alimento.nombre=='caballo'){
+    else if(alimento.nombre =='toro' || alimento.nombre =='cocodrilo' || alimento.nombre =='caballo'){
         alimento.tipo = 'animal'
     }
     else{
@@ -19,6 +19,7 @@ for(let i = 0; i < 50; i ++)
 
     alimento.niveldeEnergia = Math.floor(Math.random()*500)
     alimentos.push(alimento)
+
 }
 
 
